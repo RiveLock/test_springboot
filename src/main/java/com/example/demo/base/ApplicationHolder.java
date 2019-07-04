@@ -1,4 +1,4 @@
-package com.example.demo.pattern;
+package com.example.demo.base;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;

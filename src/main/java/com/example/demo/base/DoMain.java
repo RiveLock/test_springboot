@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.base;
 
 import com.example.demo.pattern.ExecutorType;
 import com.example.demo.pattern.TemplateProxy;

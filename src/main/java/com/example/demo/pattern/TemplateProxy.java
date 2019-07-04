@@ -1,5 +1,6 @@
 package com.example.demo.pattern;
 
+import com.example.demo.base.ApplicationHolder;
 import org.springframework.stereotype.Component;
 
 /**
