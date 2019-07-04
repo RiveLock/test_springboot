@@ -1,6 +1,6 @@
 package com.example.demo.base;
 
-import com.example.demo.pattern.ExecutorType;
+import com.example.demo.pattern.ExecutorBeanType;
 import com.example.demo.pattern.TemplateProxy;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -20,7 +20,7 @@ public class DoMain implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        for (ExecutorType type : ExecutorType.values()) {
+        for (ExecutorBeanType type : ExecutorBeanType.values()) {
             templateProxy.execute(type.getBean(), type.getDesc());
         }
     }
