@@ -11,7 +11,6 @@ import javax.annotation.Resource;
  * Created jixinshi on 2019-07-04.
  * 用于启动服务后自动执行
  */
-
 @Component
 public class DoMain implements CommandLineRunner {
 
@@ -20,6 +19,7 @@ public class DoMain implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
+        // 入口
         for (ExecutorBeanType type : ExecutorBeanType.values()) {
             templateProxy.execute(type.getBean(), type.getDesc());
         }
